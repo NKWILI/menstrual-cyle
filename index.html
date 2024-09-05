@@ -19,39 +19,12 @@
         <label for="cycleLength">Durée moyenne du cycle (en jours) :</label>
         <input type="number" id="cycleLength" required min="21" max="35">
 
-        <button type="submit" id="calculateButton">Calculer</button>
+        <button type="button" onclick="calculateCycle()">Calculer</button>
     </form>
 
     <div class="result" id="result"></div>
-
-    <!-- Feedback Form (Likert Scale) -->
-    <div class="feedback" id="feedbackSection" style="display:none;">
-        <h3>Donnez votre avis</h3>
-        <p>Sur une échelle de 1 à 5, quelle précision avez-vous trouvée pour ce calculateur ?</p>
-
-        <form id="feedbackForm">
-            <label>
-                <input type="radio" name="precision" value="1" required> 1 - Pas précis du tout
-            </label><br>
-            <label>
-                <input type="radio" name="precision" value="2"> 2 - Peu précis
-            </label><br>
-            <label>
-                <input type="radio" name="precision" value="3"> 3 - Assez précis
-            </label><br>
-            <label>
-                <input type="radio" name="precision" value="4"> 4 - Précis
-            </label><br>
-            <label>
-                <input type="radio" name="precision" value="5"> 5 - Très précis
-            </label><br><br>
-
-            <button type="submit" id="submitFeedbackButton">Soumettre votre avis</button>
-        </form>
-
-        <div id="feedbackMessage" style="display:none; margin-top: 20px;"></div>
-    </div>
 </div>
+
 
 <script src="script.js"></script>
 </body>

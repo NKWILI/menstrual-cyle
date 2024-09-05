@@ -1,0 +1,78 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f9f3f3;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border: 2px solid #f8d7da; /* Light pink border */
+}
+
+h2 {
+    text-align: center;
+    color: #d63384; /* Soft pink */
+}
+
+p {
+    text-align: center;
+    color: #6c757d; /* Soft grey */
+}
+
+input[type="date"], input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    background-color: #fff4f7; /* Soft pink background */
+    font-size: 16px;
+    box-sizing: border-box;
+    color: #495057; /* Darker text for better readability */
+}
+
+input[type="date"]:focus, input[type="number"]:focus {
+    outline: none;
+    border-color: #d63384; /* Soft pink border on focus */
+    box-shadow: 0 0 8px rgba(214, 51, 132, 0.3);
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #d63384; /* Soft pink button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #c2185b; /* Darker pink on hover */
+}
+
+.result {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #fff4f7; /* Light pink background for result */
+    border-radius: 8px;
+    border: 1px solid #f8d7da;
+}
+
+.result h3 {
+    color: #d63384;
+}
+
+.result p {
+    color: #495057;
+    font-size: 16px;
+}
